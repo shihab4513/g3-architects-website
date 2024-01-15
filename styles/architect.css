@@ -94,7 +94,9 @@ main {
 .teams-container {
     display: flex;
     align-items: center;
+
     margin-top: 85px;
+    margin-bottom: 130px;
 
 }
 
@@ -104,6 +106,8 @@ main {
     gap: 1.5rem;
     border-radius: 8px;
 }
+
+
 
 .teams-content {
     padding-left: 73px;
@@ -129,6 +133,15 @@ main {
     font-weight: 700;
 }
 
+.teams-content-description {
+    color: var(--Dark-03, #727272);
+
+    font-size: 1rem;
+
+    font-weight: 400;
+
+}
+
 
 
 
@@ -139,7 +152,7 @@ main {
         padding: 20px;
     }
 
-    nav {
+    nav,.teams-container {
         flex-direction: column;
     }
 
@@ -147,6 +160,12 @@ main {
         width: 100%;
 
     }
+    .teams-img-container {
+        
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+    
 
 }
 
@@ -157,7 +176,7 @@ main {
         padding: 50px;
     }
 
-    nav {
+    nav,.teams-container {
         flex-direction: column;
     }
 
