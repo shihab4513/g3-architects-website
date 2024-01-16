@@ -142,6 +142,66 @@ main {
 
 }
 
+/* features section */
+.features {
+    display: flex;
+    margin-top: 130px;
+    gap: 146px;
+}
+
+.feature-card-title {
+    color: var(--Dark-01, #131313);
+
+    font-size: 1.25rem;
+
+    font-weight: 600;
+
+}
+
+.features-content .card {
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    /* width: 586px;
+height: 171px; */
+
+    flex-shrink: 0;
+    padding: 40px;
+    margin-bottom: 20px;
+}
+
+#feature-title {
+    border-left: 5px solid #FF900E;
+    padding-left: 21px;
+}
+
+.ten-years-badge {
+    border-radius: 8px;
+    background: #FF900E;
+    color: #FFF;
+    text-align: center;
+}
+
+.ten-years-badge h2 {
+
+
+
+    font-size: 4rem;
+
+    font-weight: 700;
+
+}
+
+.ten-years-badge p {
+
+    font-size: 1.6rem;
+
+    font-weight: 500;
+
+}
+
+/* Facts section */
+
 .facts-card-container {
     display: flex;
     justify-content: space-around;
@@ -174,18 +234,21 @@ main {
     margin-top: none;
 
 }
+
 /* Sponsor style */
-.sponsor{
+.sponsor {
     text-align: center;
 }
-.sponsor-img{
+
+.sponsor-img {
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
     gap: 40px;
-    
+
 }
-.sponsor-img img{
+
+.sponsor-img img {
     width: 166.757px;
     height: 50px;
     flex-shrink: 0;
@@ -203,7 +266,9 @@ main {
     }
 
     nav,
-    .teams-container,.facts-card-container,.sponsor-img {
+    .teams-container,
+    .facts-card-container,
+    .sponsor-img {
         flex-direction: column;
     }
 
@@ -217,13 +282,15 @@ main {
         grid-template-columns: repeat(1, 1fr);
 
     }
-    .facts-card-container{
+
+    .facts-card-container {
         gap: 20px;
     }
-    .sponsor-img{
+
+    .sponsor-img {
         align-items: center;
     }
-    
+
 
 
 }
@@ -236,10 +303,12 @@ main {
     }
 
     nav,
-    .teams-container,.sponsor-img {
+    .teams-container,
+    .sponsor-img {
         flex-direction: column;
     }
-    .sponsor-img{
+
+    .sponsor-img {
         align-items: center;
     }
 
